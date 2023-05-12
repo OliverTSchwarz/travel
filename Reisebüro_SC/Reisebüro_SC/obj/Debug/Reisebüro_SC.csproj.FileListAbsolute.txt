@@ -1,0 +1,14 @@
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.csproj.AssemblyReference.cache
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.csproj.SuggestedBindingRedirects.cache
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Properties.Resources.resources
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.csproj.GenerateResource.cache
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.csproj.CoreCompileInputs.cache
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\Reisebüro_SC.exe.config
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\Reisebüro_SC.exe
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\Reisebüro_SC.pdb
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.exe
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.pdb
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Formu.resources
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Form3.resources
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Buchung.resources
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Reisebüro.resources

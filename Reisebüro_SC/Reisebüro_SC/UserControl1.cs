@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace Reisebüro_SC
 {
-    public partial class Reisebüro : Form
+    public partial class Formu : UserControl
     {
-        public Reisebüro() => InitializeComponent();
-        public void ZurBuchung_Click(object sender, EventArgs e)
+        public Formu()
         {
-            Buchung buchung = new Buchung();
-            buchung.ShowDialog(this);
+            InitializeComponent();
+        }
+
+        private void UserControl1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
