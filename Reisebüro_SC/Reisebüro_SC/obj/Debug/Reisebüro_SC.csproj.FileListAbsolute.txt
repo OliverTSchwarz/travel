@@ -12,3 +12,9 @@ C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Rei
 C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Form3.resources
 C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Buchung.resources
 C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.Reisebüro.resources
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\System.Buffers.dll
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\System.Memory.dll
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\darin\Documents\GitHub\travel\Reisebüro_SC\Reisebüro_SC\obj\Debug\Reisebüro_SC.csproj.CopyComplete

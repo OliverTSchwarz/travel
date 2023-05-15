@@ -38,6 +38,11 @@
             this.NachnameBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.GeburtsdatumBox = new System.Windows.Forms.MaskedTextBox();
+            this.TelefonnummerBox = new System.Windows.Forms.MaskedTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.buchen = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.E_Mail_Box = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // persönliche_angaben
@@ -114,10 +119,53 @@
             // GeburtsdatumBox
             // 
             this.GeburtsdatumBox.Location = new System.Drawing.Point(144, 215);
+            this.GeburtsdatumBox.Mask = "00/00/0000";
             this.GeburtsdatumBox.Name = "GeburtsdatumBox";
             this.GeburtsdatumBox.Size = new System.Drawing.Size(156, 26);
             this.GeburtsdatumBox.TabIndex = 9;
-            this.GeburtsdatumBox.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.GeburtsdatumBox_MaskInputRejected);
+            this.GeburtsdatumBox.ValidatingType = typeof(System.DateTime);
+            // 
+            // TelefonnummerBox
+            // 
+            this.TelefonnummerBox.Location = new System.Drawing.Point(144, 256);
+            this.TelefonnummerBox.Name = "TelefonnummerBox";
+            this.TelefonnummerBox.Size = new System.Drawing.Size(156, 26);
+            this.TelefonnummerBox.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(8, 259);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(130, 20);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Telefonnummer *";
+            // 
+            // buchen
+            // 
+            this.buchen.Location = new System.Drawing.Point(232, 366);
+            this.buchen.Name = "buchen";
+            this.buchen.Size = new System.Drawing.Size(75, 26);
+            this.buchen.TabIndex = 12;
+            this.buchen.Text = "buchen";
+            this.buchen.UseVisualStyleBackColor = true;
+            this.buchen.Click += new System.EventHandler(this.buchen_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 304);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(127, 20);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "E-Mail-Adresse *";
+            // 
+            // E_Mail_Box
+            // 
+            this.E_Mail_Box.Location = new System.Drawing.Point(144, 304);
+            this.E_Mail_Box.Name = "E_Mail_Box";
+            this.E_Mail_Box.Size = new System.Drawing.Size(156, 26);
+            this.E_Mail_Box.TabIndex = 14;
             // 
             // Buchung
             // 
@@ -125,6 +173,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(813, 564);
+            this.Controls.Add(this.E_Mail_Box);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.buchen);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.TelefonnummerBox);
             this.Controls.Add(this.GeburtsdatumBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.NachnameBox);
@@ -154,5 +207,10 @@
         private System.Windows.Forms.TextBox NachnameBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MaskedTextBox GeburtsdatumBox;
+        private System.Windows.Forms.MaskedTextBox TelefonnummerBox;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button buchen;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox E_Mail_Box;
     }
 }

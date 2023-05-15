@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Reisebüro_SC
 {
@@ -19,11 +20,21 @@ namespace Reisebüro_SC
         }
         Reisebüro parentForm;
 
-        private void GeburtsdatumBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        private void buchen_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
-            GeburtsdatumBox.Mask = "00/00/0000";
+            MessageBox.Show("Vielen Dank für Ihre Buchung!");
         }
 
+        /*private void GeburtsdatumBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            InitializeComponent();
+            GeburtsdatumBox.Mask = "00.00.0000";
+        }
+
+        private void TelefonnummerBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            InitializeComponent();
+            TelefonnummerBox.Mask = "00 00 00 000 000";
+        }*/
     }
 }
